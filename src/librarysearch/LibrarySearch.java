@@ -23,7 +23,7 @@ package librarysearch;
 public class LibrarySearch {
     
     public static void main(String[] args) {
-        Functions.setDBInfo("database.properties");
+        Functions.setDBInfo("src/librarysearch/database.properties");
         SearchFrame.main(args);
         
     }
